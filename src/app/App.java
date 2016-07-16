@@ -41,7 +41,7 @@ public class App {
 				Usuario usuario = new Usuario();
 				usuario.setEmail("email " + i);
 				usuario.setUsername("nome " + i);
-				usuario.setNumeroReservas(i);
+				usuario.setNumeroReservas(0);
 				uDao.add(usuario);
 			} catch (Exception e) {
 				e.printStackTrace();
